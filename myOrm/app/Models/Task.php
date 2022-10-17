@@ -16,6 +16,11 @@ class Task extends Model
      */
     protected $primaryKey = 'TaskId';
 
+    protected $attributes = array(
+        $taskId => $taskId,
+        $name => $name,
+        $toDos => $toDos
+    );
 
     /**
      * @var int
@@ -31,6 +36,8 @@ class Task extends Model
      * @var array
      */
     protected $toDos;
+
+    
 
     public function todo(){
         return $this->hasMany(Todo::class);
