@@ -195,6 +195,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * User added Providers
+         */
+        Reliese\Coders\CodersServiceProvider::class,
+
     ],
 
     /*

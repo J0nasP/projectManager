@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c3906fb880b2ff5f58e5365729182b7a4296497b',
+        'reference' => '9185dd41280a8070002505f275c5824f727bc482',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -406,7 +406,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c3906fb880b2ff5f58e5365729182b7a4296497b',
+            'reference' => '9185dd41280a8070002505f275c5824f727bc482',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -807,6 +807,15 @@
             'install_path' => __DIR__ . '/../ramsey/uuid',
             'aliases' => array(),
             'reference' => 'a161a26d917604dc6d3aa25100fddf2556e9f35d',
+            'dev_requirement' => false,
+        ),
+        'reliese/laravel' => array(
+            'pretty_version' => 'v1.1.8',
+            'version' => '1.1.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../reliese/laravel',
+            'aliases' => array(),
+            'reference' => '521f6aa0170093951748111784e22390ea3730af',
             'dev_requirement' => false,
         ),
         'rhumsaa/uuid' => array(
